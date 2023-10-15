@@ -1,4 +1,3 @@
-import React from "react";
 import ExpensiveProvider from "./ExpensiveProvider";
 import ConsumerComponent from "./ConsumerComponent";
 

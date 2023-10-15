@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ChildComponent from "./ChildComponent";
 
 function App() {
-  const [obj, setObj] = useState({ value: "Initial" });
+  const [obj, _] = useState({ value: "Initial" });
 
   return (
     <div className="App">

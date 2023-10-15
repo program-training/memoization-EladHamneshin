@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ListComponent from './ListComponent';
 
 function App() {
-  const [list, setList] = useState([
+  const [list, _] = useState([
     { id: 1, value: 'Item 1' },
     // ... more list items
   ]);
@@ -15,4 +15,3 @@ function App() {
 }
 
 export default App;
-s
